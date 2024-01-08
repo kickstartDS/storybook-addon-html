@@ -1,0 +1,9 @@
+dist
+.env
+
+# Error information
+yarn-error.log
+npm-debug.log
+
+# Dependencies
+node_modules

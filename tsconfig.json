@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "jsx": "react",
+    "outDir": "dist",
+    "target": "ES2020",
+    "esModuleInterop": true,
+    "strict": false
+  },
+  "include": ["src/index.ts", "src/constants.ts", "src/params.ts"],
+  "exclude": ["node_modules"]
+}

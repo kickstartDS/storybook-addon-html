@@ -1,0 +1,65 @@
+{
+  "name": "@kickstartds/storybook-addon-html",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Lukas Mestel",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "node": "./dist/index.js",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    },
+    "./manager": "./dist/manager.mjs",
+    "./preview": "./dist/preview.mjs",
+    "./package.json": "./package.json"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "node build",
+    "prepublishOnly": "yarn build && tsc",
+    "storybook": "storybook dev -p 6006"
+  },
+  "resolutions": {
+    "jackspeak": "2.1.1"
+  },
+  "dependencies": {
+    "@storybook/components": "^7",
+    "@storybook/manager-api": "^7",
+    "@storybook/preview-api": "^7",
+    "@storybook/theming": "^7"
+  },
+  "devDependencies": {
+    "@kickstartds/auto-config": "1.2.0-canary.257.474.0",
+    "@storybook/addon-controls": "^7",
+    "@storybook/react": "^7",
+    "@storybook/react-vite": "^7",
+    "@storybook/types": "^7",
+    "@types/react": "^18",
+    "auto": "^11.0.4",
+    "esbuild": "^0.19",
+    "esbuild-node-externals": "^1",
+    "react": "^18",
+    "react-dom": "^18",
+    "storybook": "^7",
+    "typescript": "^5",
+    "vite": "^4"
+  },
+  "peerDependencies": {
+    "@storybook/react": "^7",
+    "react": "^17 || ^18",
+    "react-dom": "^17 || ^18"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
