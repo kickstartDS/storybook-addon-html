@@ -1485,10 +1485,10 @@
   resolved "https://registry.yarnpkg.com/@juggle/resize-observer/-/resize-observer-3.4.0.tgz#08d6c5e20cf7e4cc02fd181c4b0c225cd31dbb60"
   integrity sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==
 
-"@kickstartds/auto-config@1.2.0-canary.257.474.0":
-  version "1.2.0-canary.257.474.0"
-  resolved "https://registry.yarnpkg.com/@kickstartds/auto-config/-/auto-config-1.2.0-canary.257.474.0.tgz#f75e095caa946fb7c8c391353abfd927603edec6"
-  integrity sha512-OOU94MX84tPaNiYmAttmvAzeUsAULQ/tkwm3LEwcnmIjU8jtWb9KdQSrgYBuGIa8iux08N8e0C4JZ+Iq5Il2Bw==
+"@kickstartds/auto-config@^1.2":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@kickstartds/auto-config/-/auto-config-1.2.0.tgz#a80187f43f23c524bcdc9658cff5772c981cb159"
+  integrity sha512-6s9gb2HEGTHifzvg+hU1Tq8bWNk+k8VYMQWs+DEzU5t0HWpf6sM89lXr/LeV1mii5ZvV+2pQrqPIuhcLXdRCLg==
   dependencies:
     "@auto-it/npm" "^11"
     "@auto-it/released" "^11"

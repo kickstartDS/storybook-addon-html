@@ -38,7 +38,7 @@
     "@storybook/theming": "^7"
   },
   "devDependencies": {
-    "@kickstartds/auto-config": "1.2.0-canary.257.474.0",
+    "@kickstartds/auto-config": "^1.2",
     "@storybook/addon-controls": "^7",
     "@storybook/react": "^7",
     "@storybook/react-vite": "^7",
