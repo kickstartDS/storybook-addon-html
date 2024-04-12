@@ -32,29 +32,31 @@
     "jackspeak": "2.1.1"
   },
   "dependencies": {
-    "@storybook/components": "^7",
-    "@storybook/manager-api": "^7",
-    "@storybook/preview-api": "^7",
-    "@storybook/theming": "^7"
+    "@storybook/components": "^8",
+    "@storybook/manager-api": "^8",
+    "@storybook/preview-api": "^8"
   },
   "devDependencies": {
     "@kickstartds/auto-config": "^1.2",
-    "@storybook/addon-controls": "^7",
-    "@storybook/react": "^7",
-    "@storybook/react-vite": "^7",
-    "@storybook/types": "^7",
+    "@storybook/addon-controls": "^8",
+    "@storybook/react": "^8",
+    "@storybook/react-vite": "^8",
+    "@storybook/theming": "^8",
+    "@storybook/types": "^8",
+    "@types/node": "^20.12.5",
     "@types/react": "^18",
-    "auto": "^11.0.4",
-    "esbuild": "^0.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "auto": "^11.1.6",
+    "esbuild": "^0.20",
     "esbuild-node-externals": "^1",
     "react": "^18",
     "react-dom": "^18",
-    "storybook": "^7",
+    "storybook": "^8",
     "typescript": "^5",
-    "vite": "^4"
+    "vite": "^5"
   },
   "peerDependencies": {
-    "@storybook/react": "^7",
+    "@storybook/react": "^8",
     "react": "^17 || ^18",
     "react-dom": "^17 || ^18"
   },
